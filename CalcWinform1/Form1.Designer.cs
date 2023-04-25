@@ -55,14 +55,14 @@
             panelCalculadora.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             panelCalculadora.Location = new Point(21, 130);
             panelCalculadora.Name = "panelCalculadora";
-            panelCalculadora.Size = new Size(397, 279);
+            panelCalculadora.Size = new Size(401, 279);
             panelCalculadora.TabIndex = 6;
             panelCalculadora.Paint += panelCalculadora_Paint;
             // 
             // buttonRemover
             // 
             buttonRemover.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            buttonRemover.Location = new Point(310, 12);
+            buttonRemover.Location = new Point(314, 12);
             buttonRemover.Name = "buttonRemover";
             buttonRemover.Size = new Size(108, 43);
             buttonRemover.TabIndex = 5;
@@ -82,6 +82,7 @@
             // 
             // textBoxProcesar
             // 
+            textBoxProcesar.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBoxProcesar.Location = new Point(21, 82);
             textBoxProcesar.Name = "textBoxProcesar";
             textBoxProcesar.Size = new Size(397, 23);
@@ -90,10 +91,11 @@
             // 
             // buttonClear
             // 
+            buttonClear.Anchor = AnchorStyles.Top;
             buttonClear.BackColor = Color.Tomato;
             buttonClear.Location = new Point(181, 32);
             buttonClear.Name = "buttonClear";
-            buttonClear.Size = new Size(75, 23);
+            buttonClear.Size = new Size(79, 23);
             buttonClear.TabIndex = 10;
             buttonClear.Text = "Borrar";
             buttonClear.UseVisualStyleBackColor = false;
@@ -103,7 +105,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(437, 472);
+            ClientSize = new Size(441, 472);
             Controls.Add(buttonClear);
             Controls.Add(textBoxProcesar);
             Controls.Add(labelEstado);
