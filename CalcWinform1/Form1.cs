@@ -52,7 +52,7 @@ namespace CalcWinform1
                         b.Location = new Point(90 * j, 22 * i);
                         b.Click += buttonNums_Click;
                         panelCalculadora.Controls.Add(b);
-                        _orderedDictionary.Add(num, b);
+                        _orderedDictionary.Add(num.ToString(), b);
                         num++;
                     }
                 }
